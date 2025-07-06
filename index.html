@@ -207,7 +207,7 @@
         
         // --- NEW: Replaced 'theysaidso' with Gemini API ---
         async function fetchInspirationalQuote(category) {
-            // NOTE: Using 'gemini-1.5-flash-latest' as it's a stable and current model.
+            // NOTE: Using 'gemini-2.0-flash-latest' as it's a stable and current model.
             const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent';
             const prompt = `Generate a short, inspirational quote about "${category}". The quote should be suitable for a moodboard. Do not include the author's name. Only provide the quote text itself.`;
             
